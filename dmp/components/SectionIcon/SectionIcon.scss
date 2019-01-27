@@ -1,0 +1,9 @@
+@import 'common-ui/src/styles/colors';
+
+.baseIcon {
+  display: inline-block;
+  width: 43px;
+  height: 40px;
+  border-radius: 30px;
+  background: $color-lightgrey url('../../assets/3rd_party_tools_icons.png') no-repeat;
+}

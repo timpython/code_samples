@@ -1,0 +1,46 @@
+@import 'common-ui/src/styles/colors';
+
+.wrapper {
+  fllex: 1;
+  margin-top: 8px;
+}
+
+.titleBlock {
+  display: flex;
+  width: 100%;
+  height: 47px;
+  border-radius: 28px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 30px;
+  background-color: $color-lightgrey;
+}
+
+.nameGroup {
+  display: flex;
+  justify-content: center;
+}
+
+.titleImg {
+  display: flex;
+}
+
+.titleText {
+  color: $color-darkgrey;
+  font-size: 16px;
+  margin-right: 8px;
+  align-self: center;
+  padding-left: 10px;
+}
+
+.fieldsBlock {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.description {
+  font-size: 12px;
+  margin: 10px 0 10px;
+}

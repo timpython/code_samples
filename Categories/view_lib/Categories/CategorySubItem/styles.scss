@@ -1,0 +1,14 @@
+@import "../../../styles/common";
+
+.category-subitem {
+  @include button-unstyled;
+  display: block;
+  font-size: 20px;
+  margin-left: 92px;
+  font-family: $main-font;
+  cursor: pointer;
+  width: 220px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  text-align: left;
+}

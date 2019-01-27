@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioBox have correct listener 1`] = `
+<div>
+  <div
+    className="body"
+  >
+    <RadioBoxOption
+      checked={true}
+      content={
+        <div>
+          Cookie Description
+        </div>
+      }
+      key="Cookie"
+      label="Cookie"
+      name="someName"
+      onChange={[Function]}
+      value={0}
+    />
+    <RadioBoxOption
+      checked={false}
+      content={
+        <div>
+          Local Storage Description
+        </div>
+      }
+      key="LocalStorage"
+      label="LocalStorage"
+      name="someName"
+      onChange={[Function]}
+      value={1}
+    />
+  </div>
+</div>
+`;
+
+exports[`RadioBox renders correctly 1`] = `
+<div
+  className="someContainerClassName"
+>
+  <div
+    className="body"
+  >
+    <RadioBoxOption
+      checked={true}
+      content={
+        <div>
+          Cookie Description
+        </div>
+      }
+      key="Cookie"
+      label="Cookie"
+      name="someName"
+      onChange={[Function]}
+      value={0}
+    />
+    <RadioBoxOption
+      checked={false}
+      content={
+        <div>
+          Local Storage Description
+        </div>
+      }
+      key="LocalStorage"
+      label="LocalStorage"
+      name="someName"
+      onChange={[Function]}
+      value={1}
+    />
+  </div>
+</div>
+`;

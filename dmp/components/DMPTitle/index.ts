@@ -1,0 +1,1 @@
+export { DMPTitle } from './DMPTitle';

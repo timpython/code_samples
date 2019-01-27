@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Option renders correctly 1`] = `
+<div
+  className="container"
+>
+  <label
+    className="label"
+  >
+    <input
+      checked={true}
+      className="radioButton"
+      name="name"
+      onChange={[Function]}
+      type="radio"
+      value={0}
+    />
+    <span
+      className="labelText"
+    >
+      text
+    </span>
+    <span
+      className="checkMark"
+    />
+  </label>
+  <div
+    className="content"
+  >
+    <div>
+      Some Content
+    </div>
+  </div>
+</div>
+`;

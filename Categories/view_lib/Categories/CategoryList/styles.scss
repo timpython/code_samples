@@ -1,0 +1,21 @@
+@import "../../../styles/common";
+
+.category-list {
+
+  &-outer {
+    width: 1863px;
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    margin: 5px 0 25px 22px;
+    padding: 25px 0;
+  }
+
+  &-inner {
+    display: flex;
+    background-color: #ffffff;
+    position: absolute;
+  }
+
+
+}
